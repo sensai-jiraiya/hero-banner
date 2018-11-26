@@ -1,7 +1,26 @@
 html {
   box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  font-size: 100%;
+  line-height: 1.5;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+.img-f {
+  display: block;
+  width: 100%;
+}
+
+.uh-oh {
+  position: relative;
+  max-height: 0;
+  over-flow: hidden;
+  max-height: 500px;
 }
