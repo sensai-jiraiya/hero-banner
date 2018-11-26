@@ -24,3 +24,22 @@ body {
   over-flow: hidden;
   max-height: 500px;
 }
+
+.uh-uh-oh {
+  position: absolute;
+  transform: translateX(-50)
+  bottom: .3em;
+  left: 50%;
+  width: 100%;
+  padding: 0 1.53em;
+  max-width: 50em;
+}
+
+.uh-uh-oh h2 {
+  background-color: rgba(0, 0, 0, .5);
+  display: inline;
+  color: white;
+  line-height: 1em;
+  font-size: 4rem;
+  font-weight: bold;
+}
