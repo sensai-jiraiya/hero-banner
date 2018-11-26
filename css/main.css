@@ -13,21 +13,21 @@ body {
   margin: 0;
 }
 
-.img-f {
+.img-flex {
   display: block;
   width: 100%;
 }
 
-.uh-oh {
+.banner {
   position: relative;
-  max-height: 0;
-  over-flow: hidden;
   max-height: 500px;
+  margin: 0;
+  overflow: hidden;
 }
 
 .uh-uh-oh {
   position: absolute;
-  transform: translateX(-50)
+  transform: translateX(-50%);
   bottom: .3em;
   left: 50%;
   width: 100%;
@@ -39,7 +39,13 @@ body {
   background-color: rgba(0, 0, 0, .5);
   display: inline;
   color: white;
-  line-height: 1em;
+  line-height: 1.5em;
   font-size: 4rem;
   font-weight: bold;
+}
+
+.uh-uh-oh p {
+  font-style: italic;
+  font-size: 2rem;
+  margin: .6em 0;
 }
